@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Servicios</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="../../lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/styles.css">
+	<link rel="stylesheet" href="../../css/Navbar.css">
+	<link rel="stylesheet" href="../../css/style-elec.css">
+    
+	<script type="text/javascript" src="../../jquery/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="../../jquery/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="../../jquery/jquery-2.2.3.min.js"></script>
+	
+	 <script type="text/javascript" src="../../jquery/jquery-2.2.3.min.js"></script>
+</head>
+
+<body onload="cargarDatos('Albañil')" >
+				<header>
+                    
+					
+					<div class="container">
+					
+					<img src="../../mvc/modelo/img/SERVIPNG.png" alt="logo" class="logo">
+					<h1 class="ServicioTitle">Albañiles</h1>
+					
+					<nav>
+					<ul>
+					<li><a href="javascript: history.go(-1)"  class="botonSalir">Volver</a><li>
+                    </ul>
+					</nav>
+					
+					</div>
+                </header> 
+                </div>
+
+                <!-- Scrollable page content -->
+                <div id="pcimagenes" class="page-content">
+					
+                <center>
+					<table>
+					<div class="container"> 
+					<tr>
+					<td style="vertical-align:left; text-align:center"><figure><img src="../../images/Autonomos.png" class="AImg"></figure>
+					<p class="pelect" style="color:white;">Albañiles</p></td>
+					<td style="vertical-align:right; text-align:center"><div class="card"><div class= "card_container" id="profesionales"></div></div>
+					
+					</td>
+					</tr>
+					</div> 
+					</table>
+				    </center>
+            </div>
+        </div>
+    </div>
+
+            <script type="text/javascript" src="../controlador/profesionales.js"></script>
+            <script type="text/javascript" src="../modelo/negocio/neg_menu_sistema.js"></script>
+            <script type="text/javascript" src="../modelo/dao/dao_profesionales.js"></script>
+            <script type="text/javascript" src="../modelo/dto/dto_profesionales.js"></script>
+            <script type="text/javascript" src="../../lib/framework7/js/framework7.min.js"></script>
+            <script type="text/javascript" src="../../js/my-app.js"></script>
+            
+            <script type="text/javascript" src="../../cordova.js"></script>
+</body>
+</html>

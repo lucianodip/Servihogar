@@ -1,0 +1,22 @@
+{
+    "name": "com.ies.iesweekvirtual",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "displayName": "IES_WEEK_VIRTUAL",
+    "dependencies": {
+        "cordova-android": "^8.1.0",
+        "cordova-plugin-whitelist": "git+https://github.com/apache/cordova-plugin-whitelist.git",
+        "emulate": "1.0.2",
+        "emulator": "0.1.0"
+    },
+    "cordova": {
+        "platforms": [
+            "android"
+        ],
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        }
+    }
+}

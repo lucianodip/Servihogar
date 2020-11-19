@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Servi Hogar</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="../../lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="../../css/styles.css">
+	 <script type="text/javascript" src="../../jquery/jquery-2.2.3.min.js"></script>
+</head>
+
+<body>
+  <body style="background-color:#000000; overflow:scroll;">
+
+    <div id="app" class= "perfil">
+        <!-- Statusbar overlay -->
+        <div class="statusbar"></div>
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="home" class="page">
+
+                <!-- Top Navbar -->
+                 <div id="nbbarra" class="navbar">
+                    <div class="navbar-inner">
+                    <div class="title">Perfil</div>
+
+					 <div class="title"> </div>
+                    </div>
+                </div>
+
+                <!-- Toolbar -->
+                 <div id="tbbarra" class="toolbar">
+                    <div class="toolbar-inner">
+                    <!-- Toolbar links -->
+                    <input type="submit" name="inicio" id="inicio" value="INICIO" class="enlace" />
+                    <input type="submit" name="perfil" id="perfil" value="PERFIL" class="enlace" />
+					<input type="submit" name="mensajes" id="mensajes" value="MENSAJES" class="enlace" />
+					<input type="submit" name="configuraciones" id="configuraciones" value="CONFIGURACIONES" class="enlace" />
+
+                    </div>
+                </div>
+
+            <div id="fondo">
+              <fondo style="background-color:#000000;">
+                <div id="pcimagenes" class="page-content">
+
+					<p class="perfilusuario">PERFIL USUARIO</p>
+					<img alt="PerfilUsuario" src="../../mvc/modelo/imagenes/fotoperfil.png" class="responsive">
+                    <p class="nombre">Nombre y apellido</p>
+                    <p class="mail">persona@gmail.com</p>
+					<input type="submit" name="bteditarp" id="bteditarp" value="Editar Perfil" class="boton1" />
+					<p class="edad">Fecha nacimiento: xx/xx/xx</p>
+					<p class="sexo">Sexo: M/F</p>
+					<p class="tel">Número de teléfono: xxxxxxx</p>
+
+
+					<input type="submit" name="btlogout" id="btlogout" value="Cerrar sesion" class="boton1" />
+
+                </div>
+            </div>
+          </div>
+    </div>
+    <script type="text/javascript" src="../../cordova.js"></script>
+    <script type="text/javascript" src="../../lib/framework7/js/framework7.min.js"></script>
+    <script type="text/javascript" src="../../js/my-app.js"></script>
+	<script type="text/javascript" src="../controlador/principalperfilprofesional.js"></script>
+	<script type="text/javascript" src="../controlador/principal.js"></script>
+</body>
+
+</html>

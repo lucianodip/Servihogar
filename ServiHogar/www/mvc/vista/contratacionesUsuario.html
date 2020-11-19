@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Servicios</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="../../lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/styles.css">
+	<link rel="stylesheet" href="../../css/Navbar.css">
+	<link rel="stylesheet" href="../../css/style-elec.css">
+	<script type="text/javascript" src="../../jquery/jquery-2.2.3.min.js"></script>
+</head>
+
+<body onload="cargarDatos();" >
+				<header>
+                    
+					
+					<div class="container">
+					
+					<img src="../../mvc/modelo/img/SERVIPNG.png" alt="logo" class="logo">
+					<h1 class="ServicioTitle">Formulario de contratación</h1>
+					
+					<nav>
+					<ul>
+					<li><a href="javascript: history.go(-1)"  class="botonSalir">Volver</a><li>
+                    </ul>
+					</nav>
+					
+					</div>
+                </header> 
+<body>
+
+    <form> 
+        <ul>
+         
+         <li>
+            <center>
+            <table>
+					 
+                <tr>
+                <td><p style="color:white;" for="msg">Descripción del servicio</p>
+                <textarea type="descripcion" id="descripcion" class="descripcion" placeholder="Ejemplo: Problemas con el disyuntor, necesitaria que el tecnico haga una visita en Guemes 4050 entre las 8:00 hs hasta 14:00hs"></textarea><br/>
+                <p style="color:white;" for="msg">Seleccionar fecha</p>
+                <input type="date" id="fecha"><br/>
+                <p style="padding:10px;"></p>
+                <button class="ui-btn" id="btContratar" style="color:white" >Contratar</button>
+                </td>
+                </tr>
+            </table>
+             </center>
+        </li>
+
+         </ul>
+    </form>
+    <script type="text/javascript" src="../../cordova.js"></script>
+    <script type="text/javascript" src="../../lib/framework7/js/framework7.min.js"></script>
+    <script type="text/javascript" src="../../js/my-app.js"></script>
+    <script type="text/javascript" src="../controlador/contrataciones.js"></script>
+    <script type="text/javascript" src="../modelo/negocio/neg_contratacion.js"></script>
+    <script type="text/javascript" src="../modelo/dao/dao_clientes.js"></script>
+    <script type="text/javascript" src="../modelo/dto/dto_contrataciones.js"></script>
+</body>
+</html>

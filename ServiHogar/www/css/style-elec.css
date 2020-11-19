@@ -1,0 +1,77 @@
+#form {
+    width: 150px;
+    margin: 0 auto;
+    height: 100px;
+  }
+  
+  #form p {
+    text-align: center;
+    color: black;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: gray;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+ 
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
+h1 {
+ text-align: center;
+  color: white;
+}
+
+h3 {
+ text-align: center;	
+  color: white;
+}
+
+h4 {
+text-align: center;	
+  color: white;
+}
+
+p {
+	color:white;
+}
+
+label {
+  color:white;
+}
+#fecha {
+  color: black;
+  text-decoration: none;
+  font-size:18px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  background-color:#0075d9;
+  border-radius: 20px;
+  border: 1px solid #0075d9;
+  width: 14%;
+  height: auto;
+  padding: 5px 5px 5px 5px;
+  position: fixed; 
+  top: 50%; 
+  left: 50%; 
+  margin-top: 200px; 
+  margin-left: -87px;
+}
+
+

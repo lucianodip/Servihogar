@@ -1,0 +1,98 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Editar Perfil</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="../../lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="../../css/styles.css">
+
+    <script type="text/javascript" src="../../jquery/jquery-2.2.3.min.js"></script>
+</head>
+
+<body>
+<body style="background-color:#000000; overflow:scroll;">
+    <div id="app" class= "editarperfil">
+	
+ 
+        <div class="statusbar"></div>
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="home" class="page">
+
+                <!-- Top Navbar -->
+                <div id="nbbarra" class="navbar">
+                    <div class="navbar-inner">
+                    <div class="title">Editar Perfil</div>
+                    <div class="title"> </div>
+					</div>
+                </div>
+
+                <!-- Toolbar -->
+                <div id="tbbarra" class="toolbar">
+                    <div class="toolbar-inner">
+					<input type="submit" name="Inicio" id="inicio" value="INICIO" class="enlace" />
+					<input type="submit" name="Perfil" id="perfil" value="PERFIL" class="enlace" />
+					<input type="submit" name="Mensajes" id="mensajes" value="MENSAJES" class="enlace" />
+					<input type="submit" name="Configuraciones" id="configuraciones" value="CONFIGURACIONES" class="enlace" />
+                    <!-- Toolbar links -->
+					
+                    </div>
+                </div>
+
+                <!-- Scrollable page content -->
+				<div id="fondo">
+				<div id="pcimagenes" class="page-content">
+					<p class="perfilusuario">EDITAR PERFIL</p>
+					<img alt="PerfilUsuario" src="../../mvc/modelo/imagenes/fotoperfil.png" class="responsive">
+					<h4></h4>
+                    <input type="submit" name="FotoPerfil" id="fotoperfil" value="Cambiar foto de perfil" class="enlace2" />
+					<p class="mail">Nombre:</p>
+					<input type="text" name="textbox" class="textbox">
+                    <p class="mail">Email:</p>
+					<input type="text" name="textbox" class="textbox">
+					<p class="mail">Fecha nacimiento:</p>
+					<input type="text" name="textbox" class="textbox">
+					<p class="mail">Sexo:</p>
+					<input type="text" name="textbox" class="textbox">
+					<p class="mail">Número de teléfono:</p>
+					<input type="text" name="textbox" class="textbox">
+										
+					<input type="submit" name="btguardarc" id="btguardarc" value="Guardar Cambios" class="boton1" />
+					
+                                       
+                </div>
+            </div>
+        
+		</div>
+		</div>
+    </div>
+    <script type="text/javascript" src="../../cordova.js"></script>
+    <script type="text/javascript" src="../../lib/framework7/js/framework7.min.js"></script>
+    <script type="text/javascript" src="../../js/my-app.js"></script>
+	<script type="text/javascript" src="../controlador/editarperfilprofesional.js"></script>
+	<script type="text/javascript" src="../controlador/principal.js"></script>
+
+</body>
+
+</html>

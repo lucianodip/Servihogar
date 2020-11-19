@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "IES_WEEK_VIRTUAL",
+  "short_name": "IES_WEEK_VIRTUAL",
+  "version": "com.ies.iesweekvirtual",
+  "description": "A basic Framework7 template for PhoneGap.",
+  "author": "Apache Cordova Team",
+  "icons": [],
+  "start_url": "index.html"
+}

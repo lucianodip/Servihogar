@@ -1,0 +1,420 @@
+h1{
+color: white;
+ position:center;
+ font-size:20px;
+ text-decoration:none;
+ text-transform:uppercase;
+ font-family: 'Work Sans', sans-serif;
+ font-weight: 300;
+ text-align:center;
+ padding: 20px 50px;
+}
+
+h1.ServicioTitle{
+ color: white;
+ position:center;
+ font-size:20px;
+ text-decoration:none;
+ text-transform:uppercase;
+ font-family: 'Work Sans', sans-serif;
+ font-weight: 300;
+ position: relative; 
+ text-align:left;
+ float: left;
+ padding: 20px 50px;
+ 
+}
+
+p{
+ color: white;
+ position:center;
+ font-size:18px;
+ text-decoration:none;
+ font-family: 'Work Sans', sans-serif;
+ font-weight: 300;
+ text-align:center;
+ 
+ }
+
+
+.editarperfil {
+    background: rgba(0,0,0,0.0);
+    max-width: 375px;
+    height: 997px;
+	overflow: visible;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+	
+
+	box-shadow:7px 10px 25px #000;
+  border-color: white;
+}
+
+.servicios {
+    background: rgba(0,0,0,0.0);
+    max-width: 375px;
+    height: 925px;
+	overflow: visible;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+	
+
+	box-shadow:7px 10px 25px #000;
+  border-color: white;
+}
+
+input.boton{
+ font-size:20px;
+ font-family:Verdana,Helvetica;
+ font-weight:bold;
+ color:white;
+ background:#9B9B9B;
+ border:10px;
+ width:90px;
+ height:35px;
+ border-radius:8px;
+ }
+
+ input.botonServicio{
+ text-decoration:none;
+font-weight: 600;
+font-size: 40px;
+color:#000000;
+padding-top:40px;
+padding-bottom:40px;
+padding-left:80px;
+padding-right:80px;
+background-color: transparent;
+border-radius: 15px;
+border-width: 3px;
+border-style: solid;
+border-color: #000000;
+ }
+
+input.botonServicio:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+
+ }
+
+ input.botonProfesional{
+ text-decoration:none;
+font-weight: 600;
+font-size: 30px;
+color:#000000;
+padding-top:40px;
+padding-bottom:40px;
+padding-left:80px;
+padding-right:80px;
+background-color: transparent;
+border-radius: 15px;
+border-width: 3px;
+border-style: solid;
+border-color: #000000;
+ }
+
+input.botonProfesional:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+ input.botonContrataciones{
+ text-decoration:none;
+font-weight: 600;
+font-size: 30px;
+color:#000000;
+padding-top:40px;
+padding-bottom:40px;
+padding-left:80px;
+padding-right:80px;
+background-color: transparent;
+border-radius: 15px;
+border-width: 3px;
+border-style: solid;
+border-color: #000000;
+ }
+
+input.botonContrataciones:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+
+ input.enlace {
+ padding-left:10px;
+ padding-right: 10px;
+ border:0;
+ font-family: Sans-serif;
+ font-size: 14px;
+ font-weight:normal;
+ background-color: transparent;
+ color:#ffffff;
+ cursor:pointer;
+ }
+
+
+p.azul {
+ color: blue;
+ }
+
+ p.verde {
+ color: green;
+ }
+
+input.boton1{
+  background: #0075d9;
+  color: #FFF;
+  width: 100%;
+  border: none;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: Sans-serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.boton1:hover{
+  background: rgba(0, 117, 217, 0.7);
+}
+
+
+input.enlace {
+ border:0;
+ background-color: transparent;
+ color:#ffffff;
+ cursor:pointer;
+ }
+
+
+ input.enlace2 {
+ border:0;
+ background-color: transparent;
+ position:center;
+ font-size:20px;
+ font-family:Verdana,Helvetica;
+ font-weight:bold;
+ color:#0075d9;
+ cursor:pointer;
+ padding-top: 15px;
+ }
+
+input[type="text"] {
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 20px 0;
+    background: rgba(0,0,0,.0);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom:2px solid #0075d9;
+    box-sizing: border-box;
+    font-family: Sans-serif;
+    font-size: 14px;
+    font-weight:normal;
+    transition: all .5s ease;
+}
+
+ input.textbox:focus{
+ border-bottom: 4px solid #0075d9;
+ }
+
+
+ p.nombre {
+ color: white;
+	text-decoration: none;
+	font-size:18px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+ }
+
+  p.edad {
+	color: white;
+	text-decoration: none;
+	font-size:18px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	padding-top: 50px;
+ }
+
+ p.sexo {
+ color: white;
+	text-decoration: none;
+	font-size:18px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+ }
+ 
+ p.direccion {
+ color: white;
+	text-decoration: none;
+	font-size:18px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+ }
+ 
+  p.profesion {
+ color: white;
+	text-decoration: none;
+	font-size:18px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+ }
+
+
+.responsive {
+  border-radius: 400px;
+  border: 2px solid #0075d9;
+  width: 40%;
+  height: auto;
+  }
+  
+
+ .PrImg1 {
+  padding-top: 100px;
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  text-align:center;
+  
+  }
+   
+  .PrImg2 {
+  padding-top: 100px;
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  text-align:center;
+  
+  }
+  
+  .PrImg3 {
+  padding-top: 100px;
+  display: inline-block;
+  width:50%;
+  height: auto;
+  text-align:center;
+  
+  }
+  
+  .PpImg {
+  padding-top: 120px;
+  padding-left:300px;
+  display: inline-block;
+  width: 17%;
+  height: auto;
+  float:left;
+  position:relative;
+  
+  }
+  
+  .AImg {
+  padding-top: 80px;
+  display: inline-block;
+  width: 60%;
+  height: auto;
+  text-align:center;
+  
+  }
+
+  .AImg1 {
+    padding-top: 20px;
+    display: inline-block;
+    width: 60%;
+    height: auto;
+    text-align:center;
+    
+    }
+  
+.card {
+     padding-top: 100px;
+     display: inline-block;
+    color: #0075d9;
+	background-color:#848484;
+	border-radius: 20px;
+	border: 2px solid #0075d9;
+	width: 500px;
+	height: auto;
+	padding: 3px 3px 3px 3px;
+	text-align:center;
+
+  }
+ 
+.card_container{
+	padding: 30px 30px 30px 30px;
+}
+
+.ui-btn{
+	color: white;
+	text-decoration: none;
+	font-size:18px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	color: #0075d9;
+	background-color:transparent;
+	border-radius: 20px;
+	border: 1px solid #0075d9;
+	width: 20%;
+	height: auto;
+	padding: 5px 5px 5px 5px;
+	position: relative;
+	float:right;
+	
+}
+
+.ui-btn:hover{
+  cursor:pointer;
+}
+
+.descripcion {
+	color: white;
+	text-decoration: none;
+	font-size:18px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	background-color:transparent;
+	border-radius: 20px;
+	border: 1px solid #0075d9;
+	width: 500px;
+	height: 300px;
+	padding: 20px 20px 20px 20px; 
+  padding-top: 20px;
+  
+	  
+  }
+
+  input.btContratar{
+    color: white;
+    text-decoration: none;
+    font-size:18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: #0075d9;
+    background-color:transparent;
+    border-radius: 20px;
+    border: 1px solid #0075d9;
+    width: 20%;
+    height: auto;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    float:right;
+    
+  }
+  
+  .btContratar:hover{
+    cursor:pointer;
+  }
+
+  
+  
+ 
+  
+  
+ 

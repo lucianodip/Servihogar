@@ -1,0 +1,94 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Editar Perfil</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="../../lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/styles.css">
+	<link rel="stylesheet" href="../../css/Navbar.css">
+
+    <script type="text/javascript" src="../../jquery/jquery-2.2.3.min.js"></script>
+</head>
+
+<body>
+<body>
+				<header>
+                    
+					
+					<div class="container">
+					
+					<img src="../../mvc/modelo/img/SERVIPNG.png" alt="logo" class="logo">
+					<h1 class="ServicioTitle">Editar Perfil</h1>
+					
+					<nav>
+					<ul>
+					<li><a href="javascript: history.go(-1)"  class="botonSalir">Volver</a><li>
+                    </ul>
+					</nav>
+					
+					</div>
+                </header> 
+					
+					
+				<div id="pcimagenes" class="page-content">
+				
+				     <center>
+					 <table>
+					 
+					 <tr>
+					<td style="vertical-align:left; text-align:center;"><figure><img src="../../images/Perfil.png" class="PrImg1"></figure>
+					 <a  onclick="window.location.href='.html'" style="color:white;">Cambiar foto de perfil</a></td>
+					 
+						
+					<td style="vertical-align:left; text-align:center; padding: 80px;"><p class="edad">Nombre y apellido</p>
+					<input type="text" name="textbox" class="textbox">
+					<p class="edad">Profesión:</p>
+					<input type="text" name="textbox" class="textbox"></td>
+                    <td style="vertical-align:left; text-align:center; padding: 0px 0px 0px 0px;"><p class="edad">Fecha nacimiento:</p>
+					<input type="text" name="textbox" class="textbox">
+					<p class="edad">Sexo:</p>
+					<input type="text" name="textbox" class="textbox"></td>
+					<td style="vertical-align:left; text-align:center; padding: 0px 80px 100px 80px;"><p class="edad">Dirección:</p>
+					<input type="text" name="textbox" class="textbox">
+					<input type="submit" style="color:white" name="btguardarc" id="btguardarc" value="Guardar Cambios" class="GuardarCambios">
+					</td>
+					</tr>
+				    </center>
+					 
+					</table>
+                                       
+                </div>
+            </div>
+        
+		</div>
+		</div>
+    </div>
+    <script type="text/javascript" src="../../cordova.js"></script>
+    <script type="text/javascript" src="../../lib/framework7/js/framework7.min.js"></script>
+    <script type="text/javascript" src="../../js/my-app.js"></script>
+	<script type="text/javascript" src="../controlador/editarperfilprofesional.js"></script>
+	<script type="text/javascript" src="../controlador/principal.js"></script>
+
+</body>
+
+</html>
